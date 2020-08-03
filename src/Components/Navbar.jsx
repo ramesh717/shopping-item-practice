@@ -14,7 +14,7 @@ export default function Navbar(props) {
           <button
             onClick={props.onShowCart}
             type="button"
-            className="btn btn-primary"
+            className="btn bg-success text-white"
           >
             Cart{" "}
             <span className="badge badge-light ml-2">{props.state.totalItems}</span>

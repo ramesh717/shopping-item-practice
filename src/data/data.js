@@ -14,7 +14,7 @@ const dataItem = [
     name: "Nike Air",
 
     image: nikeAir,
-    dailyRentalRate: 2.5,
+    price: 100,
     publishDate: "2018-01-03T19:04:28.809Z",
     liked: true,
   },
@@ -23,7 +23,7 @@ const dataItem = [
     name: "Nike Grvity",
     image: nikeGravity,
     numberInStock: 5,
-    dailyRentalRate: 2.5,
+    price: 150,
   },
   {
     _id: "5b21ca3eeb7f6fbccd471817",
@@ -31,14 +31,14 @@ const dataItem = [
     image: nikeJoyride,
 
     numberInStock: 8,
-    dailyRentalRate: 3.5,
+    price: 120,
   },
   {
     _id: "5b21ca3eeb7f6fbccd471819",
     name: "nike phantom",
     image:nikePhantom,
     numberInStock: 7,
-    dailyRentalRate: 3.5,
+    price: 200,
   },
   {
     _id: "5b21ca3eeb7f6fbccd47181a",
@@ -46,7 +46,7 @@ const dataItem = [
     image: nikeReact,
 
     numberInStock: 7,
-    dailyRentalRate: 3.5,
+    price: 300,
   },
   {
     _id: "5b21ca3eeb7f6fbccd47181b",
@@ -54,7 +54,7 @@ const dataItem = [
     image: nikeRival,
 
     numberInStock: 7,
-    dailyRentalRate: 3.5,
+    price: 350,
   },
   {
     _id: "5b21ca3eeb7f6fbccd47181e",
@@ -62,7 +62,7 @@ const dataItem = [
     image: nikeTrial,
 
     numberInStock: 7,
-    dailyRentalRate: 4.5,
+    price: 400,
   },
   {
     _id: "5b21ca3eeb7f6fbccd47181f",
@@ -70,7 +70,7 @@ const dataItem = [
     image: nikeVictory,
 
     numberInStock: 4,
-    dailyRentalRate: 3.5,
+    price: 500,
   },
   {
     _id: "5b21ca3eeb7f6fbccd471821",
@@ -78,7 +78,7 @@ const dataItem = [
     image: nikeZoom,
 
     numberInStock: 7,
-    dailyRentalRate: 3.5,
+    price: 50,
   },
 ];
 

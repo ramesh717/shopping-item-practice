@@ -6,10 +6,12 @@ export default function ItemContent(props) {
       {props.shoes.map((shoe) => {
         return (
           <div className="grid-item " key={shoe._id}>
-            <img src={shoe.image} alt="image" />
+            <img src={shoe.image} alt={shoe.name} />
             <div className="">
               <h5>{shoe.name}</h5>
-              <button className="btn btn-dark  ">Buy</button>
+              <button 
+              onClick={()=>props.onAdd(shoe)}
+              className="btn btn-dark  ">Buy</button>
             </div>
           </div>
         );
